@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Test_esercizi
 {
     [TestClass]
-    public class UnitTest1
+    public class test
     {
         [TestMethod]
         public void TestMethod1()
@@ -37,6 +37,7 @@ namespace Test_esercizi
             int[] v2 = new int[6] { 2, 4, 5, 7, 8, 9 };
             int[] ordinato = Esercizi.Array.ContainsDoubleChar(v1);
             CollectionAssert.AreEquivalent(v2, ordinato);
+
 
         }
 
